@@ -1,5 +1,5 @@
 import { Icon } from 'leaflet';
-import markerIcon from '../icons/markerIcon.png';
+import markerIcon from '../../icons/markerIcon.png';
 
 const MarkerIcon = new Icon({
     iconUrl: markerIcon,

@@ -5,6 +5,11 @@ export const AppUI = styled.div`
 
   display: flex;
   flex-direction: row;
-  min-height: 400px;
+  height: 100vh;
 `;
 
+export const InnerWrapper = styled.div`
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+`;

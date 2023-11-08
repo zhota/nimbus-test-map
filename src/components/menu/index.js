@@ -16,6 +16,12 @@ const Menu = () => {
             <InputController value="Ponto 1" id={1} />
             <InputController value="Ponto 2" id={2} />
             <InputController value="Ponto 3" id={3} />
+            <InputController value="Ponto 1" id={1} />
+            <InputController value="Ponto 2" id={2} />
+            <InputController value="Ponto 3" id={3} />
+            <InputController value="Ponto 1" id={1} />
+            <InputController value="Ponto 2" id={2} />
+            <InputController value="Ponto 3" id={3} />
             <AddInput title="Áreas" onClickFunc={handleClick} />
             <InputController value="Área 1" id={1} />
             <AddInput title="Perímetros" onClickFunc={handleClick} />

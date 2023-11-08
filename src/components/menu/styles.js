@@ -8,6 +8,7 @@ export const Wrapper = styled.div`
     border: 1px solid red;
     background-color: #000;
     padding: 20px 5px;
+    overflow-x: hidden;
 `;
 
 export const Button = styled.div`

@@ -5,6 +5,6 @@ export const Container = styled.div`
     position: relative;
 
     .leaflet-container {
-        height: 100vh;
+        height: 100%;
     }
 `;

@@ -10,7 +10,7 @@ export const Wrapper = styled.div`
 
 export const Title = styled.h1``;
 
-export const FormWrapper = styled.div`
+export const FormWrapper = styled.form`
     display: flex;
     flex-direction: row;
     margin: 20px 0;

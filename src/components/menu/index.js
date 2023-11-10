@@ -3,30 +3,28 @@ import { Wrapper } from './styles';
 import AddInput from "./add-input";
 import InputController from './input-controller';
 
-const Menu = () => {
+const Menu = data => {
     const handleClick = () => {
         console.log('chamou a função');
         return;
     }
+    console.log('data >>', data);
 
     return (
         <Wrapper>
             <InputController value="Ponto e Zoom Iniciais"/>
             <AddInput title="Pontos" onClickFunc={handleClick} />
-            <InputController value="Ponto 1" id={1} />
-            <InputController value="Ponto 2" id={2} />
-            <InputController value="Ponto 3" id={3} />
-            <InputController value="Ponto 1" id={1} />
-            <InputController value="Ponto 2" id={2} />
-            <InputController value="Ponto 3" id={3} />
-            <InputController value="Ponto 1" id={1} />
-            <InputController value="Ponto 2" id={2} />
-            <InputController value="Ponto 3" id={3} />
+            {data?.points.map(point => {
+                return <InputController value={point?.desc} id={point?.id} key={point?.id} />
+            })}
             <AddInput title="Áreas" onClickFunc={handleClick} />
-            <InputController value="Área 1" id={1} />
+            {data?.areas.map(area => {
+                return <InputController value={area?.desc} id={area?.id} key={area?.id} />
+            })}
             <AddInput title="Perímetros" onClickFunc={handleClick} />
-            <InputController value="Perímetro 1" id={1} />
-            <InputController value="Perímetro 2" id={2} />
+            {data?.perimeters.map(perimeter => {
+                return <InputController value={perimeter?.desc} id={perimeter?.id} key={perimeter?.id} />
+            })}
         </Wrapper>
     );
 };

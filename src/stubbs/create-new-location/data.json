@@ -1,0 +1,9 @@
+{
+    "status": 200,
+    "message": "Location created successfully!",
+    "location": {
+        "zoom": 13,
+        "lat": 0,
+        "lon": 0
+    }
+}

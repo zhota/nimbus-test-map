@@ -1,0 +1,63 @@
+{
+    "initialLocation": {
+        "lat": 0,
+        "lon": 0,
+        "zoom": 13
+    },
+
+    "points": [
+        {
+            "desc": "Descrição do ponto 1",
+            "lat": 0,
+            "lon": 0,
+            "id": 1
+        },
+        {
+            "desc": "Descrição do ponto 2",
+            "lat": 0,
+            "lon": 0,
+            "id": 2
+        },
+        {
+            "desc": "Descrição do ponto 3",
+            "lat": 0,
+            "lon": 0,
+            "id": 3
+        }
+    ],
+
+    "areas": [
+        {
+            "desc": "Descrição da área 1",
+            "latSup": 0,
+            "lonLeft": 0,
+            "latInf": 0,
+            "lonRight": 0,
+            "id": 1
+        }
+    ],
+
+    "perimeters": [
+        {
+            "desc": "Descrição do perímetro 1",
+            "lat": 0,
+            "lon": 0,
+            "radius": 0,
+            "id": 1
+        },
+        {
+            "desc": "Descrição do perímetro 2",
+            "lat": 0,
+            "lon": 0,
+            "radius": 0,
+            "id": 2
+        },
+        {
+            "desc": "Descrição do perímetro 3",
+            "lat": 0,
+            "lon": 0,
+            "radius": 0,
+            "id": 3
+        }
+    ]
+}

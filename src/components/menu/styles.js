@@ -1,6 +1,4 @@
 import styled from "styled-components";
-import closedTrashIcon from '../../icons/closedTrash.png';
-import openedTrashIcon from '../../icons/openedTrash.png'
 
 export const Wrapper = styled.div`
     flex: 1;
@@ -27,13 +25,7 @@ export const Title = styled.h2`
     cursor: pointer;
 `;
 
-export const Delete = styled.img.attrs(
-    props => ({'src': props?.isMouseOver ? openedTrashIcon : closedTrashIcon})
-)`
+export const Delete = styled.img`
     width: 24px;
     height: 24px;
 `;
-
-Delete.defaultProps = {
-    src: closedTrashIcon
-};

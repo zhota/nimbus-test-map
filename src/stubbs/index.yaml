@@ -1,0 +1,15 @@
+- request:
+    method: GET
+    url: ^/location/get-location
+  response:
+    headers:
+      content-type: application/json
+    file: ./get-location/data.json
+- request:
+    method: POST
+    url: ^/location/create-new-location
+  response:
+    headers:
+      content-type: application/json
+    status: 200
+    file: ./create-new-location/data.json
